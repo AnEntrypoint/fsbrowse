@@ -14,6 +14,7 @@
 
 # production
 /build
+/dist
 
 # misc
 .DS_Store
@@ -26,6 +27,7 @@ yarn-error.log*
 
 # local env files
 .env*.local
+.env
 
 # vercel
 .vercel
@@ -33,3 +35,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Testing Folders
+/folder
+/files
+/files.zip
+/test-dir
+/test-folder
+
+#lock files
+bun.lock
+package-lock.json
+
+# stop verification
+.glootie-stop-verified
+
+.code-search/
+.prd
